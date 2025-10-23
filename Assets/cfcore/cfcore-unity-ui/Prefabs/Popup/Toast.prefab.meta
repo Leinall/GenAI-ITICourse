@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7bde60d4018a6944593eb30e4a577968
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Prefabs/Popup/Toast.prefab
+  uploadId: 607732

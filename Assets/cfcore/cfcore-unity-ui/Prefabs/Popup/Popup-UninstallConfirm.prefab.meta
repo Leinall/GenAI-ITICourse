@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4cd9199887d66874287989482333c9c7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Prefabs/Popup/Popup-UninstallConfirm.prefab
+  uploadId: 607732

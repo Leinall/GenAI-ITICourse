@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 72dcad8ceb06df04cabb493870e6c91e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Animations/Dots.anim
+  uploadId: 607732

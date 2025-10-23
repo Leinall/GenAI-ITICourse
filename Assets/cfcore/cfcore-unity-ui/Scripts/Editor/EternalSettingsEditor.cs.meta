@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2d45d85ceaca9464c8a5cb8703a93f33
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Scripts/Editor/EternalSettingsEditor.cs
+  uploadId: 607732

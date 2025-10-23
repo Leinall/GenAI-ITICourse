@@ -1,0 +1,9 @@
+{
+  "name": "overwolf.cfcore.unity",
+  "displayName": "CFCore Unity Package",
+  "type": "library",
+  "version": "0.2.30",
+  "unity": "2019.4",
+  "unityRelease": "11f1",
+  "relatedPackages": {}
+}

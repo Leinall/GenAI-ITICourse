@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d1523b45d215b44e4a0e5c9a462a7126
+timeCreated: 1483611552
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Vendor/RuntimeSpriteSheetsGenerator/Scripts/RectanglePacking/RectanglePacker.cs
+  uploadId: 607732

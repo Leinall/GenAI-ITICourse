@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 68e3b47bd8d5f2e4e991ece01cf90819
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Prefabs/MyCreation/MyCreationTile.prefab
+  uploadId: 607732

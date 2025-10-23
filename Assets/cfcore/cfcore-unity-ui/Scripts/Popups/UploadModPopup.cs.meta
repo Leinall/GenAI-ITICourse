@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bd94b009da6b8ff4c9e93ad6f00a6da0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Scripts/Popups/UploadModPopup.cs
+  uploadId: 607732

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 565d8594ce4c3c6438ad37343bc7830a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Prefabs/ApiManager.prefab
+  uploadId: 607732

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6922de6f8cde27c49aa525ff1f15b70a
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-csharp-unity/vendor/sharpziplib/License/SharpZip.License.txt
+  uploadId: 607732

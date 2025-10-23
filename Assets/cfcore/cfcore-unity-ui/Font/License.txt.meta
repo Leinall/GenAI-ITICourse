@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 46a08244470ff204b8ae694b8fca55e4
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Font/License.txt
+  uploadId: 607732

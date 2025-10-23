@@ -1,0 +1,410 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>cfcore-csharp-base</name>
+    </assembly>
+    <members>
+        <member name="P:Overwolf.CFCore.Base.Api.Common.ApiRequestPagination.Index">
+            <summary>
+            A zero based index of the first item that is included in the response
+            </summary>
+        </member>
+        <member name="P:Overwolf.CFCore.Base.Api.Common.ApiRequestPagination.PageSize">
+            <summary>
+            The requested number of items to be included in the response
+            </summary>
+        </member>
+        <member name="P:Overwolf.CFCore.Base.Api.Common.ApiResponsePagination.Index">
+            <summary>
+            A zero based index of the first item that is included in the response
+            </summary>
+        </member>
+        <member name="P:Overwolf.CFCore.Base.Api.Common.ApiResponsePagination.PageSize">
+            <summary>
+            The requested number of items to be included in the response
+            </summary>
+        </member>
+        <member name="P:Overwolf.CFCore.Base.Api.Common.ApiResponsePagination.ResultCount">
+            <summary>
+            The actual number of items that were included in the response
+            </summary>
+        </member>
+        <member name="P:Overwolf.CFCore.Base.Api.Common.ApiResponsePagination.TotalCount">
+            <summary>
+            The total number of items available by the request
+            </summary>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.Api.ICFCoreApi.GetModDescriptionAsync(System.UInt32,Overwolf.CFCore.Base.Api.Models.Enums.DescriptionResponseType)">
+            <summary>
+            Fetch description for a given mod ID in the chosen format type
+            </summary>
+            <param name="modId"></param>
+            <param name="descriptionType"></param>
+            <exception cref="T:Overwolf.CFCore.Base.Api.Exceptions.ApiResponseException">Thrown when the request fails</exception>
+            <returns></returns>
+        </member>
+        <member name="T:Overwolf.CFCore.Base.Api.Models.AuthExternalAdditionalInfo">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Api.Models.AuthExternalAdditionalInfo.EulaAcceptTime">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Api.Models.AuthExternalAdditionalInfo.Environment">
+            <summary>
+            Optional environment for PSN ["dev", "qa", "prod"]
+            </summary>
+        </member>
+        <member name="P:Overwolf.CFCore.Base.Api.Models.Requests.ModRequestDto.ClassId">
+            <summary>
+            Leaving ClassId empty is only supported for games with a single class
+            </summary>
+        </member>
+        <member name="P:Overwolf.CFCore.Base.Api.Models.Filters.SearchModsFilter.SearchFilter">
+            <summary>
+            Free text search
+            </summary>
+        </member>
+        <member name="P:Overwolf.CFCore.Base.Api.Models.Mod.GamePopularityRank">
+            <summary>
+            The mod's popularity rank, relative to other mods of a specific game
+            </summary>
+        </member>
+        <member name="P:Overwolf.CFCore.Base.Api.Models.Mod.ClassId">
+            <summary>
+            The class id this mod belongs to (see Categories)
+            </summary>
+        </member>
+        <member name="P:Overwolf.CFCore.Base.Api.Models.Mod.PrimaryCategoryId">
+            <summary>
+            The main category of the mod as it was chosen by the mod author
+            </summary>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.Authentication.CFCoreAuthenticationImpl.CheckAuthToken">
+            <summary>
+            Checks the validity of the Auth Token , resets it if invalid or expired
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Overwolf.CFCore.Base.Creation.ICFCoreCreation">
+            <summary>
+            This is the interface of a class for managing the creations of the user.
+            A "creation" is defines as a "Mod" that the current user created and the
+            latest file ("revision") that wasn't uploaded yet to the server.
+            </summary>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.Creation.ICFCoreCreation.CreateMod(Overwolf.CFCore.Base.Api.Models.Requests.ModRequestDto,System.Byte[],System.IO.FileInfo,System.Action{Overwolf.CFCore.Base.Api.Models.Mod},System.Action{Overwolf.CFCore.Base.Common.CFCoreError})">
+            <summary>
+             Creates a new Mod for the creation
+            </summary>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.Creation.ICFCoreCreation.UpdateMod(Overwolf.CFCore.Base.Api.Models.Mod,Overwolf.CFCore.Base.Api.Models.Requests.UpdateModRequestDto,System.Byte[],System.IO.FileInfo,System.Action{Overwolf.CFCore.Base.Api.Models.Mod},System.Action{Overwolf.CFCore.Base.Common.CFCoreError})">
+            <summary>
+            Updates an existing creation (not including the file, If you want to
+            Update the file of the creation , you should call "UploadRevision")
+            </summary>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.Creation.ICFCoreCreation.UploadCreation(Overwolf.CFCore.Base.Api.Models.Mod,System.IO.FileInfo,Overwolf.CFCore.Base.Api.Models.Requests.UploadModFileRequestDto,System.Action{Overwolf.CFCore.Base.Api.Models.UploadedFileInfo},System.Action{Overwolf.CFCore.Base.Services.Http.Models.HttpProgress},System.Action{Overwolf.CFCore.Base.Common.CFCoreError})">
+            <summary>
+            Uploads a new file (a Revision) for a given creation.
+            </summary>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.Creation.ICFCoreCreation.DeleteMod(Overwolf.CFCore.Base.Api.Models.Mod,System.Action,System.Action{Overwolf.CFCore.Base.Common.CFCoreError})">
+            <summary>
+            Deletes an existing creation
+            </summary>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.Creation.ICFCoreCreation.CancelUploadRevision(Overwolf.CFCore.Base.Creation.Models.CreationItem,System.Action,System.Action{Overwolf.CFCore.Base.Common.CFCoreError})">
+            <summary>
+            Cancels the process of uploading a revision or canceling it if in queue
+            </summary>
+        </member>
+        <member name="T:Overwolf.CFCore.Base.Creation.Models.CreationItem">
+            <summary>
+            Creation is an entity that is created when the user wants to create a mod
+            or change something in the mod.
+            </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Creation.Models.CreationItem.Mod">
+            <summary>
+            The Mod that the changes will (or was) aplied to.
+            </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Creation.Models.CreationItem.Revision">
+            <summary>
+            The info of all the files that will be added/updated to the mod.
+            Once the changes are sent , the value of Revision will be null
+            </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Library.Models.Enums.InstalledModStatus.Pending">
+            <summary>
+            Pending download
+            </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Library.Models.Enums.InstalledModStatus.OutOfDate">
+            <summary>
+            Requires updating the mod
+            </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Library.Models.Enums.InstalledModStatus.Normal">
+            <summary>
+            The mod is up-to-date
+            </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Library.Models.Enums.InstalledModStatus.Invalid">
+            <summary>
+            This means the mod was deleted or modified - either reinstall (Install)
+            or remove it
+            </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Library.Models.Enums.InstalledModStatus.WorkingCopy">
+            <summary>
+            TODO(twolf): Add support for working copies (e.g. with .git folder)
+            </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Library.Models.Enums.InstalledModStatus.Uploading">
+            <summary>
+            The mod is currently being uploaded to the CF backend
+            </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Library.Models.InstalledMod.Status">
+            <summary>
+            Use this status do decide if the mod is up to date, out of date, pending
+            download etc... read more in |InstalledModStatus|
+            </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Library.Models.InstalledMod.Details">
+            <summary>
+            Details of the mod as seen on https://docs.curseforge.com/
+            </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Library.Models.InstalledMod.InstalledFile">
+            <summary>
+            Details of the currently (local) installed file for this mod
+            </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Library.Models.LibraryProgress.DataTransfer">
+            <summary>
+            Details for |Downloading/Uploading/Unzipping etc...|
+            </summary>
+        </member>
+        <member name="E:Overwolf.CFCore.Base.LocalCreation.ICFCoreLocalCreationAsync.OnPublishProgress">
+            <summary>
+            Invoked on <see cref="T:Overwolf.CFCore.Base.LocalCreation.Models.PublishProgressArgs">progress</see> of a publish request
+            </summary>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.LocalCreation.ICFCoreLocalCreationAsync.GetLocalCreationsAsync">
+            <summary>
+            Gets a copy of the current local creation items
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.LocalCreation.ICFCoreLocalCreationAsync.CreateAsync(System.String)">
+            <summary>
+            Creatse a local creation item
+            </summary>
+            <param name="name"></param>
+            <exception cref="T:Overwolf.CFCore.Base.LocalCreation.Exceptions.NotSupportedModsDirModeException">Thrown when the Settings passed do not use the ModsDirectoryMode.Flat ModsDirectoryMode</exception>
+            <exception cref="!:System.Runtime.Serialization.ArgumentException">Name is invalid (e.g. less than 3 chars, more than 128 chars or starts with a number)</exception>
+            <exception cref="T:Overwolf.CFCore.Base.LocalCreation.Exceptions.ModAlreadyExistsException">Thrown when a mod with the given name already exists or a mod directory already exists on the local disk for the mod name given</exception>
+            <exception cref="T:System.Exception">Thrown for any unexpected exceptions (e.g. disk errors)</exception>
+            <returns></returns>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.LocalCreation.ICFCoreLocalCreationAsync.DeleteAsync(System.Guid)">
+            <summary>
+            Delete an existing local creation item
+            </summary>
+            <param name="guid"></param>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">Thrown when the guid doesn't match any existing local creation</exception>
+            <exception cref="T:System.Exception">Thrown for any unexpected exceptions (e.g. disk errors)</exception>
+            <returns></returns>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.LocalCreation.ICFCoreLocalCreationAsync.RenameAsync(System.Guid,System.String)">
+            <summary>
+            Rename local creation and change it's base folder.
+            NOTE: This can only work when the local creation hasn't yet been
+            published to the server
+            </summary>
+            <param name="guid"></param>
+            <param name="name"></param>
+            <exception cref="T:Overwolf.CFCore.Base.LocalCreation.Exceptions.NotSupportedModsDirModeException">Thrown when the Settings passed do not use the ModsDirectoryMode.Flat ModsDirectoryMode</exception>
+            <exception cref="!:System.Runtime.Serialization.ArgumentException">Name is invalid (e.g. less than 3 chars, more than 128 chars or starts with a number)</exception>
+            <exception cref="T:Overwolf.CFCore.Base.LocalCreation.Exceptions.InvalidStatusException">If the local creation is not in the Unassociated state</exception>
+            <exception cref="T:Overwolf.CFCore.Base.LocalCreation.Exceptions.ModAlreadyExistsException">Thrown when a mod with the given name already exists or a mod directory already exists on the local disk for the mod name given</exception>
+            <exception cref="T:System.Exception">Thrown for any unexpected exceptions (e.g. disk errors)</exception>
+            <returns></returns>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.LocalCreation.ICFCoreLocalCreationAsync.SetMetadataAsync(System.Guid,Overwolf.CFCore.Base.LocalCreation.Models.LocalCreationMetadata)">
+            <summary>
+            Updates the metadata of a local creation
+            </summary>
+            <param name="guid"></param>
+            <param name="metadata"></param>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">Thrown when the guid doesn't match any existing local creation</exception>
+            <exception cref="!:System.Runtime.Serialization.ArgumentNullException"></exception>
+            <exception cref="T:System.Exception">Thrown for any unexpected exceptions (e.g. disk errors)</exception>
+            <returns></returns>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.LocalCreation.ICFCoreLocalCreationAsync.UpdateAvatarAsync(System.Guid,System.String)">
+            <summary>
+            Updates the avatar of a local creation
+            </summary>
+            <param name="guid"></param>
+            <param name="avatarPath"></param>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">Thrown when the guid doesn't match any existing local creation</exception>
+            <exception cref="T:System.IO.FileNotFoundException">Thrown when the provided file path doesn't exist</exception>
+            <exception cref="T:System.Exception">Thrown for any unexpected exceptions (e.g. disk errors)</exception>
+            <returns></returns>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.LocalCreation.ICFCoreLocalCreationAsync.PublishToServerAsync(System.Guid)">
+            <summary>
+            Publishes the local creation to the CurseForge server.
+            If the creation doesn't have an associated mod on CF, the function will
+            try to create one.
+            The function will try to detect if there are any changes in the creation
+            and, if so, upload a new file on CurseForge.
+            </summary>
+            <param name="guid"></param>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">Thrown when the guid doesn't match any existing local creation</exception>
+            <exception cref="T:Overwolf.CFCore.Base.LocalCreation.Exceptions.InvalidStatusException">If the local creation is not in a valid status for publishing (e.g. Normal or NotFound)</exception>
+            <exception cref="T:System.ArgumentException">Thrown when local creation metadata is invalid</exception>
+            <exception cref="T:Overwolf.CFCore.Base.Common.Exceptions.CFCoreErrorException">Thrown when a publish server request fails</exception>
+            <returns></returns>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.LocalCreation.ICFCoreLocalCreationAsync.CancelPublish(System.Guid)">
+            <summary>
+            Cancels all publishing operations of the provided local creation,
+            including packaging of the mod directory, updating metadata, and file
+            upload.
+            </summary>
+            <param name="guid"></param>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">Thrown when the guid doesn't match any existing local creation or when publishing isn't in progress</exception>
+            <returns></returns>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.LocalCreation.ICFCoreLocalCreationAsync.SetCreationEnableState(System.Guid,System.Boolean)">
+            <summary>
+            Change the enablement state of a creation
+            </summary>
+            <param name="guid"></param>
+            <param name="enabled"></param>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">Thrown when the guid doesn't match any existing local creation</exception>
+            <exception cref="T:System.Exception">Thrown for any unexpected exceptions (e.g. disk errors)</exception>
+            <returns></returns>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.LocalCreation.ICFCoreLocalCreationAsync.CheckForLocalChanges(System.Guid)">
+            <summary>
+            Changes creation status to modified if local hashes of metadata, avatar,
+            or mod files differ from those last uploaded to the server
+            </summary>
+            <param name="guid"></param>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">Thrown when the guid doesn't match any existing local creation</exception>
+            <exception cref="T:System.Exception">Thrown for any unexpected exceptions (e.g. disk errors)</exception>
+            <returns></returns>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.LocalCreation.ICFCoreLocalCreationAsync.MountInstalledModAsLocalCreation(Overwolf.CFCore.Base.Library.Models.InstalledMod)">
+            <summary>
+            Import a previously published mod as a local creation. You must be authenticated as the mod's author.
+            </summary>
+            <param name="modId"></param>
+            <exception cref="T:System.ArgumentNullException">Thrown when mod argument is null</exception>
+            <exception cref="T:System.Security.Authentication.InvalidCredentialException">Thrown when not authenticated as the mod's author</exception>
+            <returns></returns>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.LocalCreation.Models.Enums.LocalCreationStatus.NotFound">
+            <summary>
+            The creation's folder was not found on disk
+            </summary>
+        </member>
+        <member name="T:Overwolf.CFCore.Base.LocalCreation.Models.LocalCreationItem">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Overwolf.CFCore.Base.LocalCreation.Models.LocalCreationItem.Guid">
+            <summary>
+            We use a guid when the creation is still not associated with a mod
+            </summary>
+        </member>
+        <member name="P:Overwolf.CFCore.Base.LocalCreation.Models.LocalCreationItem.Enabled">
+            <summary>
+            User-controlled property for disabling the creation
+            </summary>
+        </member>
+        <member name="P:Overwolf.CFCore.Base.LocalCreation.Models.LocalCreationItem.RelativeDir">
+            <summary>
+            The directory of the creation relative to the mod installation directory
+            </summary>
+        </member>
+        <member name="P:Overwolf.CFCore.Base.LocalCreation.Models.LocalCreationItem.IsPublishedWithFile">
+            <summary>
+            If true, the local creation may be treated as an installed mod
+            </summary>
+        </member>
+        <member name="T:Overwolf.CFCore.Base.LocalCreation.Models.LocalCreationMetadata">
+            <summary>
+            Metadata of the local creation which will be used when creating the mod
+            on CurseForge
+            </summary>
+        </member>
+        <member name="P:Overwolf.CFCore.Base.LocalCreation.Models.LocalCreationMetadata.ClassId">
+            <summary>
+            Leaving this property empty is only supported for games with a single
+            class
+            </summary>
+        </member>
+        <member name="P:Overwolf.CFCore.Base.LocalCreation.Models.LocalCreationMetadata.Summary">
+            <summary>
+            Mandatory - no longer than 256 chars
+            </summary>
+        </member>
+        <member name="P:Overwolf.CFCore.Base.LocalCreation.Models.LocalCreationMetadata.DescriptionType">
+            <summary>
+            If empty will default to Markdown
+            </summary>
+        </member>
+        <member name="P:Overwolf.CFCore.Base.LocalCreation.Models.LocalCreationMetadata.IsExperimental">
+            <summary>
+            Experimental mods won't be shown in search results or on the CurseForge
+            website
+            </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Models.Enums.ModsDirectoryMode.CFCoreStructure">
+            <summary>
+            [mods directory]/[gameId]/[modsId_fileId] (the default)
+            </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Models.Enums.ModsDirectoryMode.Flat">
+            <summary>
+            Places all mods inside the given mods directory
+            </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Models.Enums.ModsDirectoryMode.CFCoreStructureWithoutGameId">
+            <summary>
+            [mods directory]/[modsId_fileId]
+            </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Models.Settings.GameVersionTypeId">
+            <summary>
+            Optional - The game version type id of the game - in case multiple
+            versions are supported.
+            </summary>
+        </member>
+        <member name="F:Overwolf.CFCore.Base.Models.Settings.ModFilesRegexFilter">
+            <summary>
+            Optional - what mod directory files are included as part of the mod.
+            Defaults to all except dotfiles.
+            </summary>
+        </member>
+        <member name="M:Overwolf.CFCore.Base.Services.Hashing.IFingerprintService.CalculateFolderHash(System.IO.DirectoryInfo,System.Text.RegularExpressions.Regex)">
+            <summary>
+            Returns hash for the given directory, including all subdirectories and
+            files falling under the filter.
+            </summary>
+            <param name="dir">Directory to calculate hash for</param>
+            <param name="regexFilter">Filter that captures files to include</param>
+            <returns>Hash value on success, and -1 otherwise</returns>
+        </member>
+    </members>
+</doc>

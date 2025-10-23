@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28a61073a4b6b6546a8c77bac079c429, type: 3}
+  m_Name: DefaultThemeColorObject
+  m_EditorClassIdentifier: 
+  Name: Default
+  Background: {r: 0.02745098, g: 0.02745098, b: 0.02745098, a: 1}
+  Sidebar: {r: 0.1490196, g: 0.1490196, b: 0.1490196, a: 1}
+  ModItem: {r: 0.1019608, g: 0.1019608, b: 0.1019608, a: 1}
+  Font: {r: 0.8980392, g: 0.8980392, b: 0.8980392, a: 1}
+  FontGreyed: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+  ModItemOutline: {r: 1, g: 1, b: 1, a: 1}
+  DropdownColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  PaginationButtonColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  ModDetailedInfoBackground: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 0.4666667}
+  SearchBackground: {r: 0.1019608, g: 0.1019608, b: 0.1019608, a: 1}
+  MenuBackground: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  PopupBackground: {r: 0.05098039, g: 0.05098039, b: 0.05098039, a: 0.9019608}
+  PopupColor: {r: 0.1019608, g: 0.1019608, b: 0.1019608, a: 0.7098039}
+  Underline: {r: 0.945098, g: 0.3921569, b: 0.2117647, a: 1}
+  Toast: {r: 0.145098, g: 0.3333333, b: 0.6156863, a: 1}
+  InstallToast: {r: 0.1490196, g: 0.1490196, b: 0.1490196, a: 1}
+  LoaderBackground: {r: 0.02745098, g: 0.02745098, b: 0.02745098, a: 0.39}
+  ClassBackground: {r: 1, g: 1, b: 1, a: 0.003921569}
+  InstallingBarFill: {r: 0.945098, g: 0.3921569, b: 0.2117647, a: 1}
+  ThumbsUp: {r: 0.945098, g: 0.3921569, b: 0.2117647, a: 1}
+  SearchStroke: {r: 1, g: 1, b: 1, a: 1}
+  ModItemButton:
+    normal: {r: 0.945098, g: 0.3921569, b: 0.2117647, a: 1}
+    hover: {r: 1, g: 0.4705882, b: 0.3019608, a: 1}
+  ModItemUpdateButton:
+    normal: {r: 0.145098, g: 0.3333333, b: 0.6156863, a: 1}
+    hover: {r: 0.2078431, g: 0.4627451, b: 0.8431373, a: 1}
+  DropdownFont:
+    normal: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    hover: {r: 0.89, g: 0.89, b: 0.89, a: 1}
+  SidebarButton:
+    DefaultBG: {r: 0.1490196, g: 0.1490196, b: 0.1490196, a: 1}
+    HoverBG: {r: 0.2, g: 0.2, b: 0.2, a: 0.5}
+    ActiveBG: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    InactiveChoiceFont: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    ActiveChoiceFont: {r: 0.8980392, g: 0.8980392, b: 0.8980392, a: 1}
+  OnValueChange:
+    m_PersistentCalls:
+      m_Calls: []

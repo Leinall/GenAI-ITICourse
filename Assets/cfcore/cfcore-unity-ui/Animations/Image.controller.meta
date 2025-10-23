@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 12cf9ad3a84e4de43a2ff5e71da44997
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Animations/Image.controller
+  uploadId: 607732

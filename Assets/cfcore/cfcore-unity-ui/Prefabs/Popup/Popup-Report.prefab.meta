@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 71d4e5a52b1e10748af74cc11d49e747
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Prefabs/Popup/Popup-Report.prefab
+  uploadId: 607732

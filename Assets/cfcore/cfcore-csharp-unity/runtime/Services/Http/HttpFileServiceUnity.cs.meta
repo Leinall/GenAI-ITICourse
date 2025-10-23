@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2df862a38355d684eafa7b7106bff761
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-csharp-unity/runtime/Services/Http/HttpFileServiceUnity.cs
+  uploadId: 607732

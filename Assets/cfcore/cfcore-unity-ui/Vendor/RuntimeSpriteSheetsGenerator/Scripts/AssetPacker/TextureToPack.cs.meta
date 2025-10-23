@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 53af3e867696b4df18e65f009c19b15b
+timeCreated: 1484224308
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Vendor/RuntimeSpriteSheetsGenerator/Scripts/AssetPacker/TextureToPack.cs
+  uploadId: 607732

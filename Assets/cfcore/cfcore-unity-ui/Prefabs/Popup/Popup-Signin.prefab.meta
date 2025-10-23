@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2066bb872b1002d4685270ead64bc905
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Prefabs/Popup/Popup-Signin.prefab
+  uploadId: 607732

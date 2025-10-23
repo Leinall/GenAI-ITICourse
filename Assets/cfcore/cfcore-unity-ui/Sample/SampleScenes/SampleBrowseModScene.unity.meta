@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cb2c8ba1c41b60443a9cb2a2fd32457f
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Sample/SampleScenes/SampleBrowseModScene.unity
+  uploadId: 607732

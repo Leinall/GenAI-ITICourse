@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7b6fd548b9f434e4bbcd7eff5382c1fe
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-csharp-unity/link.xm_
+  uploadId: 607732

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4ffda22f798667a49aecb328e8db6b19
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/UI/Theme/Default Themes/DefaultThemeColorObject.asset
+  uploadId: 607732

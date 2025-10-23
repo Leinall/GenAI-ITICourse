@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a555cc77b87dd1d459b0d52b782ec373
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Prefabs/Popup/Popup-ScaledImg.prefab
+  uploadId: 607732

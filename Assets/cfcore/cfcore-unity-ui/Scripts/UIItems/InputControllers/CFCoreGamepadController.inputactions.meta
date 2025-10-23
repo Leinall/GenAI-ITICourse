@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 81a31d8643e9601439ff421fe5023963
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 8404be70184654265930450def6a9037, type: 3}
+  generateWrapperCode: 1
+  wrapperCodePath: 
+  wrapperClassName: CFCoreGamepadController
+  wrapperCodeNamespace: Overwolf.CFCore.UnityUI.InputController
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Scripts/UIItems/InputControllers/CFCoreGamepadController.inputactions
+  uploadId: 607732

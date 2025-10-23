@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 937365ae0c2b92f498bfeecde831c5ed
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/readme-files/ShapeThemeReadMe.md
+  uploadId: 607732

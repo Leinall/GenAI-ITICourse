@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faedf3e51dd31cf419fb89ad7243a006, type: 3}
+  m_Name: DefaultThemeShapeObject
+  m_EditorClassIdentifier: 
+  Name: Default
+  Button: {fileID: 0}
+  Dropdown: {fileID: 0}
+  PaginationButton: {fileID: 0}
+  MainPage: {fileID: 0}
+  SearchField: {fileID: 0}
+  Sidebar: {fileID: 0}
+  SidebarButton: {fileID: 0}
+  ModTile: {fileID: 0}
+  LoadingBar: {fileID: 21300000, guid: 0517d79958357614cbb1f57a3abcd564, type: 3}
+  InstalledModsEmptyView: {fileID: 0}
+  ModTileStroke: {fileID: 21300000, guid: 2eab5c777efd3f544a89e0b98f290338, type: 3}
+  ThumbsUpFull: {fileID: 21300000, guid: c1a0f24fa9dd3b640aaf21d5d03d454a, type: 3}
+  ThumbsUpEmpty: {fileID: 21300000, guid: a7a20f75b2713be408e8505b1a8b37d6, type: 3}
+  SearchStroke: {fileID: 21300000, guid: 2eab5c777efd3f544a89e0b98f290338, type: 3}
+  OnValueChange:
+    m_PersistentCalls:
+      m_Calls: []

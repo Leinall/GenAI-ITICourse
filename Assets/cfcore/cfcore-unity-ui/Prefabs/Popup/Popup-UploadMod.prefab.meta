@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cb17c198e77f55c4c975ac2f87c5ddd8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Prefabs/Popup/Popup-UploadMod.prefab
+  uploadId: 607732

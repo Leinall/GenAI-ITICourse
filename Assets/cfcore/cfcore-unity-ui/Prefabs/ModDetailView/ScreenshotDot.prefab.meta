@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9bead609bed4da74f87390690a19cec8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Prefabs/ModDetailView/ScreenshotDot.prefab
+  uploadId: 607732

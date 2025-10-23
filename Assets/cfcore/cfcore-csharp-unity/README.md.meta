@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cfb675f863dd2404e88a0d2b14ac58d2
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-csharp-unity/README.md
+  uploadId: 607732

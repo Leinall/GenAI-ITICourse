@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 234d17e1818649047a60b9f41cb459ac
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Prefabs/Common/Gamepad/GamepadButtonPrompt.prefab
+  uploadId: 607732

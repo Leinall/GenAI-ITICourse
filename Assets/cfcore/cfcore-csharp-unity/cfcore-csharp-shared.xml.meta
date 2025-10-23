@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cb256b2c98bb9e74cb0443edbe65b7d4
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-csharp-unity/cfcore-csharp-shared.xml
+  uploadId: 607732

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 30e3a9b36e4f45f4cb260632413b5231
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Animations/Toast.controller
+  uploadId: 607732

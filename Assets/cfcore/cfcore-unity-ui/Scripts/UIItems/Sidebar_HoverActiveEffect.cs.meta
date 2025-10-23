@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0d8811a1e42667d4faffb370e222117c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Scripts/UIItems/Sidebar_HoverActiveEffect.cs
+  uploadId: 607732

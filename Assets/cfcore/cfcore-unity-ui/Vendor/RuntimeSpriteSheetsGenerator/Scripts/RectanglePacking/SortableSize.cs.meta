@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f6260815a395f4afd873579eb3658eea
+timeCreated: 1483611465
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Vendor/RuntimeSpriteSheetsGenerator/Scripts/RectanglePacking/SortableSize.cs
+  uploadId: 607732

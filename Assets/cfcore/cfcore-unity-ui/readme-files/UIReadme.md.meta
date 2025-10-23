@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 232c9695f1c7113429a1d4a6ae53c3a7
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/readme-files/UIReadme.md
+  uploadId: 607732

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4b16a3a63c6affd439240807031bbe89
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/LICENSE
+  uploadId: 607732

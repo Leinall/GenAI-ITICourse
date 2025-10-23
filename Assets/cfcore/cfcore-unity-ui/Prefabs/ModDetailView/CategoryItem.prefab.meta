@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 67ea6fc67c69aa646b169876d1ac70a2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Prefabs/ModDetailView/CategoryItem.prefab
+  uploadId: 607732

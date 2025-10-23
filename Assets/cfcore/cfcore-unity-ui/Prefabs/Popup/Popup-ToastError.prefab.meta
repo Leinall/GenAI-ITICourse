@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a91cab5f088ba7f46bdfcf9323b41460
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 220943
+  packageName: CurseForge Plugin
+  packageVersion: 1.0.1
+  assetPath: Assets/cfcore/cfcore-unity-ui/Prefabs/Popup/Popup-ToastError.prefab
+  uploadId: 607732
