@@ -1,23 +1,21 @@
 ﻿using DG.Tweening;
 using RTLTMPro;
 using System.Collections;
-using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 
 public class UIAnimation : MonoBehaviour
 {
-   // public RTLTextMeshPro testArabicText;
+    // public RTLTextMeshPro testArabicText;
     UserText_Tag _userText;
     IntroPanel_Tag _introPanel;
     YallaBeena_Tag _yallaBeena;
     Button _yallaBeenaButton;
 
     public string fullText = " بك";
-    private RTLTextMeshPro _rtlText; 
-    private void Awake()
+    private RTLTextMeshPro _rtlText;
+    private void OnEnable()
     {
         DefineObjects();
     }
@@ -40,13 +38,13 @@ public class UIAnimation : MonoBehaviour
     }
     void Update()
     {
-        
+
     }
 
     IEnumerator ShowText()
     {
         string fullText = "المحقق كونان بتاعناااا فيه جريمه كده عايزينك تحقق فيها تشوف مين ال كل الجبنه و سمم الكلاب جاهز تبدء  يلا بيناااااااااااااا";
-        _rtlText.text = ""; 
+        _rtlText.text = "";
 
         for (int i = 1; i <= fullText.Length; i++)
         {
