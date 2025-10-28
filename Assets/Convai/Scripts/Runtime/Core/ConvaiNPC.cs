@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using Convai.Scripts.Runtime.Addons;
 using Convai.Scripts.Runtime.Attributes;
 using Convai.Scripts.Runtime.Features;
@@ -9,7 +6,9 @@ using Convai.Scripts.Runtime.PlayerStats;
 using Convai.Scripts.Runtime.UI;
 using Grpc.Core;
 using Service;
-using TMPro;
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using ConvaiLipSync = Convai.Scripts.Runtime.Features.LipSync.ConvaiLipSync;

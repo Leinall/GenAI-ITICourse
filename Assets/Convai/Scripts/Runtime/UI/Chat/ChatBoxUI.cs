@@ -1,6 +1,6 @@
+using RTLTMPro;
 using System.Collections.Generic;
 using System.Linq;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using ColorUtility = UnityEngine.ColorUtility;
@@ -247,8 +247,8 @@ namespace Convai.Scripts.Runtime.UI
 
             Message newMessage = new()
             {
-                SenderTextObject = senderBox.Find("Sender").GetComponent<TMP_Text>(),
-                MessageTextObject = container.Find("Message").GetComponent<TMP_Text>()
+                SenderTextObject = senderBox.Find("Sender").GetComponent<RTLTextMeshPro>(),
+                MessageTextObject = container.Find("Message").GetComponent<RTLTextMeshPro>()
             };
 
             newMessage.SenderTextObject.text = FormatSpeakerName(speakerName, speakerColor);

@@ -1,4 +1,4 @@
-using TMPro;
+using RTLTMPro;
 using UnityEngine;
 
 namespace Convai.Scripts.Runtime.UI
@@ -22,13 +22,13 @@ namespace Convai.Scripts.Runtime.UI
             UIInstance = Instantiate(uiPrefab);
             _question = new Message
             {
-                SenderTextObject = UIInstance.transform.Find("Background").Find("Question").Find("Sender").GetComponent<TMP_Text>(),
-                MessageTextObject = UIInstance.transform.Find("Background").Find("Question").Find("Text").GetComponent<TMP_Text>()
+                SenderTextObject = UIInstance.transform.Find("Background").Find("Question").Find("Sender").GetComponent<RTLTextMeshPro>(),
+                MessageTextObject = UIInstance.transform.Find("Background").Find("Question").Find("Text").GetComponent<RTLTextMeshPro>()
             };
             _answer = new Message
             {
-                SenderTextObject = UIInstance.transform.Find("Background").Find("Answer").Find("Sender").GetComponent<TMP_Text>(),
-                MessageTextObject = UIInstance.transform.Find("Background").Find("Answer").Find("AnswerText").Find("Text").GetComponent<TMP_Text>()
+                SenderTextObject = UIInstance.transform.Find("Background").Find("Answer").Find("Sender").GetComponent<RTLTextMeshPro>(),
+                MessageTextObject = UIInstance.transform.Find("Background").Find("Answer").Find("AnswerText").Find("Text").GetComponent<RTLTextMeshPro>()
             };
             UIInstance.SetActive(false);
             _feedbackButtons = _answer.MessageTextObject.transform.GetChild(0).gameObject;

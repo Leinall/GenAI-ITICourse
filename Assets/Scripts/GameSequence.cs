@@ -7,7 +7,7 @@ public class GameSequence : StateManager
 
     public void GoToWayPoint(Transform transform)
     {
-        Camera.transform.parent = transform;
-        Camera.transform.localPosition = Vector3.zero;
+        //Camera.transform.parent = transform;
+        //Camera.transform.localPosition = Vector3.zero;
     }
 }

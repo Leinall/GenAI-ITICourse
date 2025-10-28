@@ -1,5 +1,5 @@
 using Convai.Scripts.Runtime.LoggerSystem;
-using TMPro;
+using RTLTMPro;
 using UnityEngine;
 
 namespace Convai.Scripts.Runtime.UI
@@ -23,8 +23,8 @@ namespace Convai.Scripts.Runtime.UI
             UIInstance = Instantiate(uiPrefab);
             _subtitle = new Message
             {
-                SenderTextObject = UIInstance.transform.Find("Background").Find("ChatBox").Find("Subtitle").Find("Sender").GetComponent<TMP_Text>(),
-                MessageTextObject = UIInstance.transform.Find("Background").Find("ChatBox").Find("Subtitle").Find("Text").GetComponent<TMP_Text>()
+                SenderTextObject = UIInstance.transform.Find("Background").Find("ChatBox").Find("Subtitle").Find("Sender").GetComponent<RTLTextMeshPro>(),
+                MessageTextObject = UIInstance.transform.Find("Background").Find("ChatBox").Find("Subtitle").Find("Text").GetComponent<RTLTextMeshPro>()
             };
 
             // Start with the UI inactive

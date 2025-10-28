@@ -1,5 +1,6 @@
 ﻿using Convai.Scripts.Runtime.Utils;
-using TMPro;
+using RTLTMPro;
+
 
 namespace Convai.Scripts.Runtime.UI
 {
@@ -8,8 +9,8 @@ namespace Convai.Scripts.Runtime.UI
     /// </summary>
     public class Message
     {
-        public TMP_Text SenderTextObject { get; set; }
-        public TMP_Text MessageTextObject { get; set; }
+        public RTLTextMeshPro SenderTextObject { get; set; }
+        public RTLTextMeshPro MessageTextObject { get; set; }
 
         /// <summary>
         ///     Does an RTL check for the message and changes the order of sender-text in the UI if both are in an
